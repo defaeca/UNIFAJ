@@ -149,7 +149,7 @@ public class Iniciar {
         listarComputadores();
         System.out.print("Digite o ID do computador a ser atualizado: ");
         int id = scanner.nextInt();
-        scanner.nextLine(); // Limpar o buffer de entrada
+        scanner.nextLine();
 
         Computador comp = encontrarComputadorPorId(id);
         if (comp == null) {
@@ -166,7 +166,7 @@ public class Iniciar {
             System.out.print("Digite a nova capacidade de armazenamento (em GB) do computador: ");
             int armazenamento = scanner.nextInt();
             comp.setArmazenamento(armazenamento);
-            scanner.nextLine(); // Limpar o buffer de entrada
+            scanner.nextLine();
 
             System.out.print("Digite o novo tipo de tela do computador: ");
             String tela = scanner.nextLine();
