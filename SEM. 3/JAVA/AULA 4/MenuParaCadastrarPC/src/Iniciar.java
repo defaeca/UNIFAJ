@@ -46,7 +46,7 @@ class Computador {
 }
 
 public class Iniciar {
-    private static final List<Computador> computadores = new ArrayList<>();
+    private static final List<Computador> precomputes = new ArrayList<>();
     private static final Scanner scanner = new Scanner(System.in);
     private static final String alunoRA = "12325680";
     private static final String alunoNome = "Raphael Eça Rodrigues de Morais";
@@ -96,10 +96,10 @@ public class Iniciar {
 
     private static void listarComputadores() {
         System.out.println("\nLista de Computadores:");
-        if (computadores.isEmpty()) {
+        if (precomputes.isEmpty()) {
             System.out.println("Nenhum computador cadastrado.");
         } else {
-            for (Computador comp : computadores) {
+            for (Computador comp : precomputes) {
                 System.out.println(comp);
             }
         }
@@ -126,7 +126,7 @@ public class Iniciar {
         String tela = scanner.nextLine();
 
         Computador comp = new Computador(id, cpu, memoria, armazenamento, tela);
-        computadores.add(comp);
+        precomputes.add(comp);
         System.out.println("Computador criado com sucesso.");
     }
 
@@ -140,7 +140,7 @@ public class Iniciar {
         if (comp == null) {
             System.out.println("Computador não encontrado.");
         } else {
-            computadores.add(comp);
+            precomputes.add(comp);
             System.out.println("Computador incluído com sucesso.");
         }
     }
@@ -186,13 +186,13 @@ public class Iniciar {
         if (comp == null) {
             System.out.println("Computador não encontrado.");
         } else {
-            computadores.remove(comp);
+            precomputes.remove(comp);
             System.out.println("Computador excluído com sucesso.");
         }
     }
 
     private static Computador encontrarComputadorPorId(int id) {
-        for (Computador comp : computadores) {
+        for (Computador comp : precomputes) {
             if (comp.getId() == id) {
                 return comp;
             }
