@@ -1,0 +1,6 @@
+﻿Nome,Quantidade,Componente
+"S1",1," Botão"
+"R1, R2",2,"1 kΩ Resistor"
+"T1",1," Transistor NPN (BJT)"
+"U1",1," Arduino Uno R3"
+"M1",1," Motor CC"

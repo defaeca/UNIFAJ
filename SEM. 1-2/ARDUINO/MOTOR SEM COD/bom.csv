@@ -1,0 +1,5 @@
+﻿Nome,Quantidade,Componente
+"M1",1," Motor CC"
+"S1",1," Interruptor deslizante"
+"BAT1",1," Bateria 9V"
+"T1, T2, T3, T4",4," Transistor NPN (BJT)"
