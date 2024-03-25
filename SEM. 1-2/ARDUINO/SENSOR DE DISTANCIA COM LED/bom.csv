@@ -1,0 +1,9 @@
+﻿Nome,Quantidade,Componente
+"U1",1," Arduino Uno R3"
+"DIST1",1," Sensor de distância ultrassônico (quatro pinos)"
+"D1",1,"Verde LED"
+"R1, R2, R3, R4, R5",5,"1 kΩ Resistor"
+"D2",1,"Amarelo LED"
+"D3",1,"Vermelho LED"
+"Digit1",1,"Catódica Visor de sete segmentos"
+"S1",1," Botão"
