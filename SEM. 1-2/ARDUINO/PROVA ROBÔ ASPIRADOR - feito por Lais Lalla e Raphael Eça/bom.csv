@@ -1,0 +1,6 @@
+﻿Nome,Quantidade,Componente
+"UASPIRADOR DE PÓ",1," Arduino Uno R3"
+"DISTESQUERDO, DISTDIREITO",2," Sensor de distância ultrassônico (quatro pinos)"
+"DFAROL E, DFAROL D",2,"Laranja LED"
+"Dree, Dred",2,"Vermelho LED"
+"R2, R3, R4, R5",4,"1 kΩ Resistor"
