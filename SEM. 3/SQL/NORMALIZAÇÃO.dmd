@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="NORMALIZAÇÃO" id="24E141F6-D84C-371D-BEAA-6C8EDCF767C5" version="3.5">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 00:04:41 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>24E141F6-D84C-371D-BEAA-6C8EDCF767C5</designId>
+</OSDM_Design>
