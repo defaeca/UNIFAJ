@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81ACC5CA-6F59-7EA7-B236-88C23F27E086" name="CLIENTE">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 15:19:13 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOME_CLIENTE" id="02DB5D7E-DC7A-6F48-2F28-FAB52809C447">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 15:19:58 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME_VENDEDOR" id="26EB0EF3-70FF-E02A-EA5C-D1A2111A5C3B">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 15:23:08 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="N° PEDIDO_NUMERO_PEDIDO" id="A8EBFBD8-800D-60D0-0204-9498DDC14985">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 21:14:58 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72C0C11A-1A09-DF8F-0A2C-95F04768C80C" referredColumn="2A7C47E5-A70C-F82F-27FB-779992AAD4F6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A379099-2CDC-0836-68E3-B27062A099B2" name="CLIENTE_PK">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 15:23:30 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02DB5D7E-DC7A-6F48-2F28-FAB52809C447"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E82C03C1-7D2E-DE9D-4A1A-C8D86AB3CA36" name="CLIENTE_N° PEDIDO_FK">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 21:14:58 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8EBFBD8-800D-60D0-0204-9498DDC14985"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

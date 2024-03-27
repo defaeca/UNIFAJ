@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="152BCDEB-7BAD-9ABC-61D4-845828E6ACD0" name="PRODUTO">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 14:45:55 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PRODUTO" id="2F89C194-493C-412E-42EA-8811A64F346E">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 14:45:55 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_PEDIDO" id="90F6398A-CA55-96C6-EE09-42B839242231">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 14:57:12 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUANTIDADE" id="0F522E8E-51E9-ABDB-9AE5-F5F20B16CE1E">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 14:45:55 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_TOTAL" id="3685AA11-8A49-4284-6275-984DF42CE29A">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 14:45:55 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED6DF8E9-1AE7-4E74-335E-C59E787F5F42" name="PRODUTO_PK">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 14:57:12 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F89C194-493C-412E-42EA-8811A64F346E"/>
+<colUsage columnID="90F6398A-CA55-96C6-EE09-42B839242231"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

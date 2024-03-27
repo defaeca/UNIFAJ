@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8191736-E4DC-12EB-DCB6-BEF03510D079" name="PEDIDO">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 15:28:10 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PRODUTO" id="2F4FEBAD-4FDA-ADFA-F030-B0B98C251E11">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 15:29:44 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUANTIDADE" id="CC4F80F0-678D-A33E-4821-1D4900D7CAA8">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 15:29:44 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_TOTAL" id="ECCF1034-56A9-F150-297C-498625846600">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 15:29:44 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="N° PEDIDO_NUMERO_PEDIDO" id="D1A59CFB-071B-0499-8494-C4B63797C624">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 21:14:51 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="572E6935-3866-4D1B-D577-D6FF044BA86F" referredColumn="2A7C47E5-A70C-F82F-27FB-779992AAD4F6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FECF23A6-4641-9178-05CD-9B231AB864BC" name="PEDIDO_PK">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 21:13:27 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F4FEBAD-4FDA-ADFA-F030-B0B98C251E11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F530444-3445-2110-B63F-C8620F5A0F56" name="PEDIDO_N° PEDIDO_FK">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 21:14:51 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1A59CFB-071B-0499-8494-C4B63797C624"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,26 +1,45 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5185928-8ABF-2B36-CCED-C6E42DCFF20B" name="TABELA_NORMALIZADA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70409498-B6E4-A119-E9BF-DFF3EBFA6DEA" name="TABELA_NORMALIZADA">
 <createdBy>rapha</createdBy>
-<createdTime>2024-03-26 00:52:59 UTC</createdTime>
+<createdTime>2024-03-26 14:45:55 UTC</createdTime>
 <ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
 <ordsAlias>table_1</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="NUMERO_PEDIDO" id="284DFB9C-4BF9-C9D3-2D5F-65211E32D564">
+<Column name="PRODUTO_NUMERO_PEDIDO" id="8B455EEB-DB15-F813-CD7C-C66CECF82085">
 <createdBy>rapha</createdBy>
-<createdTime>2024-03-26 00:56:40 UTC</createdTime>
+<createdTime>2024-03-26 15:07:43 UTC</createdTime>
 <ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C0116A9-340E-5BFC-3585-4ADE3058A4C7" referredColumn="90F6398A-CA55-96C6-EE09-42B839242231"/>
+</associations>
 </Column>
-<Column name="NOME_VEDENDOR" id="A663945F-637D-9B33-2A4C-1E54775CE1F9">
+<Column name="PRODUTO_CODIGO_PRODUTO" id="39E7E822-E2F5-7AAC-3454-BF4DB320F590">
 <createdBy>rapha</createdBy>
-<createdTime>2024-03-26 00:54:15 UTC</createdTime>
+<createdTime>2024-03-26 15:08:21 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C0116A9-340E-5BFC-3585-4ADE3058A4C7" referredColumn="2F89C194-493C-412E-42EA-8811A64F346E"/>
+</associations>
+</Column>
+<Column name="NOME_VEDENDOR" id="E0D4916D-5728-926C-F0F1-CA45E5CEC782">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 14:45:55 UTC</createdTime>
 <ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,9 +49,9 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NOME_CLIENTE" id="A866469E-E3C0-B884-65B8-2355DC658982">
+<Column name="NOME_CLIENTE" id="2E9F64E6-CC04-5EE1-D258-F34E8480DA2B">
 <createdBy>rapha</createdBy>
-<createdTime>2024-03-26 00:57:16 UTC</createdTime>
+<createdTime>2024-03-26 14:45:55 UTC</createdTime>
 <ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -42,9 +61,9 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ENDERECO" id="57130B7D-7F36-0987-91DA-C61EBC49BD04">
+<Column name="ENDERECO" id="0C1506AB-93B1-207A-EF07-A0E1A01614EF">
 <createdBy>rapha</createdBy>
-<createdTime>2024-03-26 00:58:11 UTC</createdTime>
+<createdTime>2024-03-26 14:45:55 UTC</createdTime>
 <ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -54,9 +73,9 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CIDADE" id="7CCE18CF-2672-8675-F123-F03AA178763B">
+<Column name="CIDADE" id="D9EFDC60-A965-C436-D254-B082D2806FF1">
 <createdBy>rapha</createdBy>
-<createdTime>2024-03-26 00:58:35 UTC</createdTime>
+<createdTime>2024-03-26 14:45:55 UTC</createdTime>
 <ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -66,9 +85,9 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="UF" id="7897C11B-D0CC-2D0D-0DCD-160674D52AE1">
+<Column name="UF" id="36CD8313-5E3E-D4FB-2A51-7DDA33C8038B">
 <createdBy>rapha</createdBy>
-<createdTime>2024-03-26 00:59:05 UTC</createdTime>
+<createdTime>2024-03-26 14:45:55 UTC</createdTime>
 <ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -80,15 +99,26 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F2E25747-9F5E-24FF-E0EC-469FA4F938F0" name="TABELA_NORMALIZADA_PK">
+<ind_PK_UK id="CAC1D12D-7008-04E8-FB28-3BB170113BA3" name="TABELA_NORMALIZADA_PK">
 <createdBy>rapha</createdBy>
-<createdTime>2024-03-26 00:56:40 UTC</createdTime>
+<createdTime>2024-03-26 15:07:43 UTC</createdTime>
 <ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="284DFB9C-4BF9-C9D3-2D5F-65211E32D564"/>
+<colUsage columnID="8B455EEB-DB15-F813-CD7C-C66CECF82085"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5DA1B9F-EC5B-67D2-6383-A8C41D830D71" name="TABELA_NORMALIZADA_PRODUTO_FK">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 15:08:21 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39E7E822-E2F5-7AAC-3454-BF4DB320F590"/>
+<colUsage columnID="8B455EEB-DB15-F813-CD7C-C66CECF82085"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

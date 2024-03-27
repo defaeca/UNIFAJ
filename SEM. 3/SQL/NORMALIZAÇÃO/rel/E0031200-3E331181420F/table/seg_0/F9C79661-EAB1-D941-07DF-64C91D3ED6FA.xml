@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9C79661-EAB1-D941-07DF-64C91D3ED6FA" name="ENDEREÇO">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 15:23:37 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ENDEREÇO" id="B31B7D35-B599-801A-6167-D5A707E36A41">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 15:24:37 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIDADE" id="40C7B07A-1C98-F086-1164-C147E7985EA0">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 15:25:18 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UF" id="7AB64554-2E7F-7A20-2ED8-F03EFEADF029">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 21:14:09 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_NOME_CLIENTE" id="B53B5272-D81B-041D-70DB-124CB5B382F9">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 21:16:31 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E244C39-FFAA-217F-467A-2194F34EFCFC" referredColumn="02DB5D7E-DC7A-6F48-2F28-FAB52809C447"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1FA68C42-21F5-80A4-C120-2A68BF7A094B" name="ENDEREÇO_CLIENTE_FK">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 21:16:31 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B53B5272-D81B-041D-70DB-124CB5B382F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

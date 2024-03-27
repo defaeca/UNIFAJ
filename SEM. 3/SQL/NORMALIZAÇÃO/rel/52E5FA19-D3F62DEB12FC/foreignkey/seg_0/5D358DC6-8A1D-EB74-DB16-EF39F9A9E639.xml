@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5D358DC6-8A1D-EB74-DB16-EF39F9A9E639" containerWithKeyObject="F3735ED2-D5F3-2C73-6558-6BE0C566E8CE" localFKIndex="9F0E6234-DF00-7DD2-4ED2-DFBCA0FDF325" name="PRODUTO_TABELA_NORMALIZADA_FK">
+<createdBy>rapha</createdBy>
+<createdTime>2024-03-26 14:32:37 UTC</createdTime>
+<ownerDesignName>NORMALIZAÇÃO</ownerDesignName>
+<referredTableLongName>TABELA_NORMALIZADA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F5185928-8ABF-2B36-CCED-C6E42DCFF20B</referredTableID>
+<keyObject>F2E25747-9F5E-24FF-E0EC-469FA4F938F0</keyObject>
+<referredKeyID>F2E25747-9F5E-24FF-E0EC-469FA4F938F0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NUMERO_PEDIDO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
