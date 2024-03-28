@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Filmes">
+        <item>Star Wars 4 - uma nova esperanca</item>
+        <item>Interstelar</item>
+        <item>Até o ultimo homem</item>
+        <item>Coração de ferro</item>
+        <item>Homem de ferro</item>
+        <item>Capitao America</item>
+    </string-array>
+</resources>

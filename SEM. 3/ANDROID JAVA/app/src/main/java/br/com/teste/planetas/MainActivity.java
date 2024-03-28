@@ -3,6 +3,7 @@ package br.com.teste.planetas;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -25,7 +26,10 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
         initSpinnerp();
+
         //initSpinnerT();
+
+        initFilmesSelecaoMultipla();
     }
 
     private void initSpinnerp(){
@@ -52,6 +56,15 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, messagem, Toast.LENGTH_LONG)
                 .show();
     }
+
+    public void initFilmesSelecaoMultipla(){
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+                R.array.Filmes, android.R.layout.simple_list_item_checked);
+        ListView listView = findViewById(R.id.listViewFilmes);
+        listView.setAdapter(adapter);
+        listView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
+    }
+    
     /*public void initSpinner(){
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.timesSerieA,
                 android.R.layout.simple_spinner_item);
