@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="proximaAulas">
+        <item>Geografia</item>
+        <item>Educação Fisica </item>
+        <item>Quimica</item>
+        <item>Historia</item>
+    </string-array>
+</resources>
