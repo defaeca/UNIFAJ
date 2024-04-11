@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.aula6loginapp"
+    namespace = "com.example.meusdadosapp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.aula6loginapp"
+        applicationId = "com.example.meusdadosapp"
         minSdk = 34
         targetSdk = 34
         versionCode = 1

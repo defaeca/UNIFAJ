@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Aula6LoginApp"
+rootProject.name = "MeusDadosApp"
 include(":app")
+ 
