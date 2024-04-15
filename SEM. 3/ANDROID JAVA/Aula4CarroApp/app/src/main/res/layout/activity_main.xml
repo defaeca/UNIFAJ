@@ -18,24 +18,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginBottom="16dp">
+        android:layout_marginBottom="16dp"/>
 
-        <TextView
-            android:id="@+id/tvNome"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:text="Raphael Eça Rodrigues de Morais"
-            android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tvMarca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Marca do carro" />
 
-        <TextView
-            android:id="@+id/tvRA"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="12325680"
-            android:textSize="16sp" />
-    </LinearLayout>
+    <Spinner
+        android:id="@+id/spinnerMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" />
 
     <TextView
         android:id="@+id/tvModelo"
@@ -64,19 +60,6 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:hint="Digite o ano" />
-
-    <TextView
-        android:id="@+id/tvMarca"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:text="Marca do carro" />
-
-    <Spinner
-        android:id="@+id/spinnerMarca"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp" />
 
     <Button
         android:id="@+id/btnAdd"
