@@ -1,0 +1,8 @@
+{
+  "nome":"Maria",
+  "idade": 16,
+  "casada": true,
+  "peso": 50.7,
+  "nascimento": null,
+  "amigos": ["João", "Pedro", "Madalena"]
+}
